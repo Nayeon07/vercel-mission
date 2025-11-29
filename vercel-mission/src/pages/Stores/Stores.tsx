@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import StoreItem from "../../components/StoreItem"
-import stores from "../../models/stores"
 import OrderBar from "../../components/OrderBar/OrderBar";
 import BackBar from "../../components/BackBar";
 
@@ -11,7 +10,7 @@ const Stores = () => {
       <StyledFoodTypeBar>
         <span>샐러드</span>
       </StyledFoodTypeBar>
-      <StoreItem items={stores}/>
+      <StoreItem />
       <OrderBar/>
     </StyledStores>
   );
